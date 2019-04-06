@@ -1,8 +1,4 @@
-/* Welcome to the SQL mini project. For this project, you will use
-Springboard' online SQL platform, which you can log into through the
-following link:
-
-<credentials removed>
+/* Welcome to the SQL mini project. 
 
 The data you need is in the "country_club" database. This database
 contains 3 tables:
@@ -122,10 +118,6 @@ AND B.memid = M.memid
 AND DATE( B.starttime ) =  '2012-09-14'
 HAVING totalcost > 30
 ORDER BY totalcost DESC 
-
---
-
-result: 12 records; total cost from 320 (guest) to 35. 
 
 
 /* Q9: This time, produce the same result as in Q8, but using a subquery. */
